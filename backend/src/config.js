@@ -8,11 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Squarze";
-<<<<<<< HEAD
 const description = "Abstract Art Collection";
-=======
-const description = "Abstract Art collection";
->>>>>>> d36a02c11cf7ff03a4fcf95cc4dab1bc556946cf
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -39,11 +35,7 @@ const format = {
 };
 
 const extraMetadata = {
-<<<<<<< HEAD
-  external_url: "https://google.com", // Replace with your website or remove this line if you do not have one.
-=======
   external_url: "https://opensea.io", // Replace with your website or remove this line if you do not have one.
->>>>>>> d36a02c11cf7ff03a4fcf95cc4dab1bc556946cf
 };
 
 // NFTPort Info
@@ -54,7 +46,6 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-<<<<<<< HEAD
 const CONTRACT_NAME = 'SQUARZE';
 const CONTRACT_SYMBOL = 'SQZ';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
@@ -62,40 +53,21 @@ const OWNER_ADDRESS = '0xd2A4B36DC644ce37c2C2149b64853F2e76c0B47E';
 const TREASURY_ADDRESS = '0xd2A4B36DC644ce37c2C2149b64853F2e76c0B47E';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-=======
-const CONTRACT_NAME = 'Squarze';
-const CONTRACT_SYMBOL = 'SQZ';
-const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xef2ac47883611c195f3e7a8732d04b8a0a791893';
-const TREASURY_ADDRESS = '0xef2ac47883611c195f3e7a8732d04b8a0a791893';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.015; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
->>>>>>> d36a02c11cf7ff03a4fcf95cc4dab1bc556946cf
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-05-30T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-<<<<<<< HEAD
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xd2A4B36DC644ce37c2C2149b64853F2e76c0B47E"; // Address that will receive the royalty
-=======
-const PRESALE_MINT_START_DATE = "2022-05-28T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
->>>>>>> d36a02c11cf7ff03a4fcf95cc4dab1bc556946cf
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0xd2A4B36DC644ce37c2C2149b64853F2e76c0B47E"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-<<<<<<< HEAD
 let CONTRACT_ADDRESS = "0xce88CA67C73053558294E895b6cB49c37491B361"; // If you want to manually include it
-=======
-let CONTRACT_ADDRESS = "0x33a9Ff1c88b33f380f52d6d035d7517CA7b74725"; // If you want to manually include it
->>>>>>> d36a02c11cf7ff03a4fcf95cc4dab1bc556946cf
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
